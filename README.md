@@ -1,12 +1,19 @@
 # GlovedataCollector
-This personal project is a GUI to collect data from a glove through an arduino from 5 flex sensors on each fingers and a MPU-6050 for detecting orientation and movement of hand. The data will be used to train models for various purposes.
+A GUI (Graphical User Interface) application to collect data from a mechanical handglove for detecting hand orientation & movement of hand. This collected data can be used to train models for various purposes.
 
-The whole code is in HandDataCollector.py -- download this to read the code
-Used modules- 
-#Tkinter   [For building GUI]
-#serial    [For communicating with arduino]
-#numpy     [For collecting and manipulating arrays]
-#pandas    [To store the data in a csv file]
+## Hand Glove Components
+* Arduino (1)
+* Flex Sensors (5) 
+* MPU-6050 (1)
 
-If you want to just try out the GUI, download the executable file HandDataCollector.exe from the dist folder.
-The script was converted into exe file using pyinstaller module.
+## Used Modules
+* Tkinter   `For building GUI`
+* Serial    `For communication with Arduino`
+* Numpy     `For collecting and manipulating arrays`
+* Pandas    `For storing data in a file in CSV format`
+* The script was converted into exe file using pyinstaller module.
+
+## Instructions
+* Main Code : HandDataCollector.py
+* Executable: dist/HandDataCollector.exe
+* Explore, tweak and create a pull request to contribute!
