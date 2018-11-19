@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="https://github.com/atahmeed/GlovedataCollector/blob/master/MA.ico" alt="GloveDataCollector"/>
+</p>
+
 # GlovedataCollector
 A GUI (Graphical User Interface) application to collect data from a mechanical handglove for detecting hand orientation & movement of hand. This collected data can be used to train models for various purposes.
 
