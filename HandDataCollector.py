@@ -91,7 +91,7 @@ def CollectData():
         HandArduino.write('S'.encode('utf-8'))
         while HandArduino.inWaiting()==0: pass
         dataString = HandArduino.readline().decode('ascii')
-        print(dataString[0:-2])
+        # print(dataString[0:-2])
         parsedData=dataString.split(' ')
         parsedData=parsedData[0:11]
         for i in range(11):
